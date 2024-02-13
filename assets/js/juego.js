@@ -9,11 +9,11 @@
   let computerScore = { value: 0 };
 
   const createDeck = () => {
-    for (type of types) {
+    for (let type of types) {
       for (let i = 2; i <= 10; i++) {
         deck.push(i + type);
       }
-      for (spec of special) {
+      for (let spec of special) {
         {
           deck.push(spec + type);
         }
