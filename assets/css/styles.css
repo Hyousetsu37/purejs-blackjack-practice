@@ -1,0 +1,61 @@
+html,
+body {
+  margin: 0px;
+  background-color: cadetblue;
+  color: white;
+}
+.title {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.btn {
+  color: white;
+  border-radius: 5px;
+  padding: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  border: 0px;
+  transition: all;
+  opacity: 90%;
+}
+.btn:hover {
+  opacity: 100%;
+}
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn-danger {
+  background-color: #cf2929;
+}
+
+.btn-primary {
+  background-color: #2f5cf1;
+}
+
+.entity-container {
+  margin-left: 5px;
+}
+.card {
+  width: 150px;
+  position: relative;
+  left: 100px;
+  margin-left: -90px;
+}
+
+.cards {
+  height: 240px;
+}
